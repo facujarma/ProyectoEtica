@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Calibri";
+
+    font-weight: normal;
+}
+
+
+
+body{
+    background-color: #2E2E2E;
+}
+
+.title{
+    color: white;
+    background-color: rgb(169,127,63);
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contTable{
+    margin: 1em;
+    width: 90vw;
+    height: 75vh;
+}
+
+.table{
+    display: block;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap:0px;
+    background-color: rgb(169,127,63);
+
+}
+
+.tematica{
+    
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid black;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+.tematica > h3{
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    padding: 0.2em 0.4em;
+}
+
+.palabra-info{
+    margin-bottom: 1em;
+    color: black;
+    font-size: 0.9em;
+}
+
